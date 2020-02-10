@@ -1,10 +1,10 @@
 trigger:
-  branches:
-    include:
-    - master
+    branches:
+      include:
+      - master
     paths:
       include:
-        - /back-end/*
+      - /back-end/*
 
 pool:
   vmImage: 'ubuntu-latest'
