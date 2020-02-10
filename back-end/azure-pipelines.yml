@@ -1,0 +1,14 @@
+trigger:
+  branches:
+    include:
+    - master
+    paths:
+    include:
+      - /mobile-app/*
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Run Build
+  displayName: 'back-end build'
