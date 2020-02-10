@@ -3,8 +3,8 @@ trigger:
     include:
     - master
     paths:
-    include:
-      - /back-end/*
+      include:
+        - /back-end/*
 
 pool:
   vmImage: 'ubuntu-latest'
