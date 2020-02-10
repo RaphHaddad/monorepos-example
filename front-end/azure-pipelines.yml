@@ -4,11 +4,11 @@ trigger:
     - master
     paths:
     include:
-      - /back-end/*
+      - /front-end/*
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Run back-end build
-  displayName: 'back-end build'
+- script: echo Run front-end build
+  displayName: 'front-end build'
